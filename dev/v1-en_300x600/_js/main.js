@@ -19,7 +19,7 @@ function start(){
 
 function tape(){
 	const TIME = .4
-	const tl = new TimelineMax({repeat:1, repeatDelay:2.5})
+	const tl = new TimelineMax()
 	tl.to(".tape_2", TIME, {clip: `rect(0px 600px 1200px 600px)`} )
 	tl.to(".tape_5", TIME, {clip: `rect(0px 0px 1200px 0px)`} )
 	tl.to(".tape_6", TIME, {clip: `rect(0px 600px 1200px 600px)`} )

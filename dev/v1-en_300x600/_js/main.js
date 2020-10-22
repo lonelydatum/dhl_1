@@ -25,7 +25,7 @@ function start(){
 	tl.from(".logo", .5, {opacity:0}, "+=.2")
 	tl.from(".tagline", .6, {clip: `rect(0px 0px 1200px 0px)`}, "+=.2")
 
-	tl.gotoAndPlay("tape")
+	// tl.gotoAndPlay("tape")
 	
 }
 

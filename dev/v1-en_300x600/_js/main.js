@@ -10,7 +10,7 @@ function start(){
 
 	tl.from(".t1", .5, {x:"-=300", opacity:0}, "+=.2")
 	tl.to(".t1", .5, {x:"+=300", opacity:0}, "+=3")
-	tl.from(".t2", .5, {x:"-=300", opacity:0}, "+=.2")
+	tl.from(".t2", .5, {x:"-=300", opacity:0})
 
 	tl.add("tape")
 	tl.add(tape(), "tape")
@@ -20,7 +20,7 @@ function start(){
 	
 	
 
-	tl.set(".frame2", {opacity:1})
+	tl.set(".frame2", {opacity:1}, "+=3")
 	tl.from(".bg_2", .5, {opacity:0}, "+=.2")
 	tl.from(".logo", .5, {opacity:0}, "+=.2")
 	tl.from(".tagline", .6, {clip: `rect(0px 0px 1200px 0px)`}, "+=.2")

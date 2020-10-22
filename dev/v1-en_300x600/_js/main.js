@@ -9,16 +9,18 @@ function start(){
 	
 
 	tl.from(".t1", .5, {x:"-=300", opacity:0}, "+=.2")
-	tl.to(".t1", .5, {x:"-=300", opacity:0}, "+=3")
+	tl.to(".t1", .5, {x:"+=300", opacity:0}, "+=3")
 	tl.from(".t2", .5, {x:"-=300", opacity:0}, "+=.2")
 
 	tl.add(tape())
+
+	tl.set(".frame2", {className: "+=in"}, "+=.6")
 	
 	
 }
 
 function tape(){
-	const TIME = .4
+	const TIME = .6
 	const tl = new TimelineMax()
 	tl.to(".tape_2", TIME, {clip: `rect(0px 600px 1200px 600px)`} )
 	

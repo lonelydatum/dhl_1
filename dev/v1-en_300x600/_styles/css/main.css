@@ -219,6 +219,18 @@ sup {
   opacity: 0;
 }
 
+.frame2 {
+  opacity: 1;
+  transition: 1.1s ease-in;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+}
+
+.frame2.in {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 100%);
+}
+
 .tape {
   clip: rect(0px 600px 1200px 0px);
 }

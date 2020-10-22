@@ -6,6 +6,18 @@
 
 .frame1 {
 	opacity: 0;
+
+}
+
+.frame2{
+	opacity: 1;
+	transition: 1.1s ease-in;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+}
+
+.frame2.in{	
+	clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 100%);
+	
 }
 
 .tape{

@@ -21,7 +21,7 @@ function start(){
 	
 
 	tl.set(".frame2", {opacity:1}, "+=3")
-	tl.from(".bg_2", .6, {opacity:0})
+	tl.from(".bg_2", .4, {y:"-=600", opacity:0, ease:Power1.easeIn})
 	tl.from(".logo", .4, {opacity:0}, "+=.2")
 	tl.from(".tagline", .5, {clip: `rect(0px 0px 1200px 0px)`}, "+=.2")
 

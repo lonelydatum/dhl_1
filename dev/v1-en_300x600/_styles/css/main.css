@@ -219,13 +219,6 @@ sup {
   opacity: 0;
 }
 
-.frame2 {
-  opacity: 1;
-  transition: .6s ease-in;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
-}
-
 .frame2.in {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 100%);
   clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 100%);

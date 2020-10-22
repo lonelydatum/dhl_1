@@ -15,10 +15,17 @@ function start(){
 	tl.add("tape")
 	tl.add(tape(), "tape")
 
-	tl.set(".frame2", {className: "+=in"}, "+=.6")
-	tl.from(".tagline", .6, {clip: `rect(0px 0px 1200px 0px)`}, "+=.8")
+	// tl.set(".frame2", {className: "+=in"}, "+=.6")
 	
-	// tl.gotoAndPlay("tape")
+	
+	
+
+	tl.set(".frame2", {opacity:1})
+	tl.from(".bg_2", .5, {opacity:0}, "+=.2")
+	tl.from(".logo", .5, {opacity:0}, "+=.2")
+	tl.from(".tagline", .6, {clip: `rect(0px 0px 1200px 0px)`}, "+=.2")
+
+	tl.gotoAndPlay("tape")
 	
 }
 

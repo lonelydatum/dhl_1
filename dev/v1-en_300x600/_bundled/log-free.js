@@ -17,8 +17,8 @@ function start() {
 	// tl.set(".frame2", {className: "+=in"}, "+=.6")
 
 	tl.set(".frame2", { opacity: 1 }, "+=3");
-	tl.from(".bg_2", .5, { opacity: 0 }, "+=.2");
-	tl.from(".logo", .5, { opacity: 0 }, "+=.2");
+	tl.from(".bg_2", .6, { opacity: 0 });
+	tl.from(".logo", .4, { opacity: 0 }, "+=.2");
 	tl.from(".tagline", .5, { clip: "rect(0px 0px 1200px 0px)" }, "+=.2");
 
 	// tl.gotoAndPlay("tape")

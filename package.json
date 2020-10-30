@@ -21,6 +21,7 @@
     "gulp-ejs": "^1.2.1",
     "gulp-htmlmin": "^1.2.0",
     "gulp-inline-source": "^2.1.0",
+    "gulp-local-screenshots": "2.2.0",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",

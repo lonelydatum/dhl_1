@@ -224,6 +224,14 @@ sup {
   clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 100%);
 }
 
+.tape {
+  clip: rect(0px 600px 1200px 0px);
+}
+
+.tagline {
+  clip: rect(0px 600px 1200px 0px);
+}
+
 #banner {
   font-size: 20px;
   color: #333;
